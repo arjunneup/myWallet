@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1002235885615",
+    "firebase_url": "https://mywallet-738c8.firebaseio.com",
+    "project_id": "mywallet-738c8",
+    "storage_bucket": "mywallet-738c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002235885615:android:23f1e0cf40719fa8",
+        "android_client_info": {
+          "package_name": "com.arjunneup.wallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002235885615-qsj58en1p0s9pqcv56jeqt8041se3qsa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arjunneup.wallet",
+            "certificate_hash": "c226a3d20b449943e64fff95ad8dad201631f912"
+          }
+        },
+        {
+          "client_id": "1002235885615-msk09nhl6639r0oofu1tv7frk68j3e9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaGEsksJFqrkTEd1JPVgeMrc9JOvhp7ok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002235885615-msk09nhl6639r0oofu1tv7frk68j3e9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

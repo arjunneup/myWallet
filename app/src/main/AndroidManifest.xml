@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arjunneup.wallet"
+    android:versionCode="2"
+    android:versionName="1.2">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Education"></activity>
+        <activity
+            android:name=".Grocery"
+            android:label="@string/title_activity_grocery"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Health" />
+        <activity android:name=".Rent" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Salary" />
+        <activity android:name=".Menu" />
+        <activity
+            android:name=".Splash_screen"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Signup_Form" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Login_form" />
+    </application>
+
+</manifest>
